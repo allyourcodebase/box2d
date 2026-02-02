@@ -59,6 +59,8 @@ pub fn build(b: *std.Build) void {
     const box2d_lib = b.addLibrary(.{
         .name = "box2d",
         .root_module = box2d_mod,
+        // box2d stores some global state internally that is destroyed each reload if it is statically linked into game.dll
+        .linkage = .dynamic,
     });
     box2d_lib.installHeadersDirectory(box2d_dep.path("include"), "", .{});
     b.installArtifact(box2d_lib);
