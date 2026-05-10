@@ -6,22 +6,22 @@
     .dependencies = .{
         .box2d = .{
             .url = "git+https://github.com/erincatto/box2d#8c661469c9507d3ad6fbd2fea3f1aa71669c2fe3",
-            .hash = "1220b4804d83fcfcad9e76c9e4ec3fb58f87db9dcd96584393f9f57874c491bafa63",
+            .hash = "N-V-__8AAD_GLQC0gE2D_PytnnbJ5Ow_tY-H253NllhDk_n1",
         },
         // Below dependencies are only used by sample application
         .glfw = .{
             .url = "git+https://github.com/allyourcodebase/glfw#98607df9bce062c7fd837d58fafa06dae22edb04",
-            .hash = "12203f465aebf4747dd5e8e419df8afc9c828e45f3fd4ddbfa3a7d08f075af834109",
+            .hash = "glfw-0.0.0-R5AeUm0HGgA_Rlrr9HR91ejkGd-K_JyCjkXz_U3b-jp9",
             .lazy = true,
         },
         .imgui = .{
             .url = "git+https://github.com/ocornut/imgui#cb16568fca5297512ff6a8f3b877f461c4323fbe",
-            .hash = "1220dbde2c4211686e4d0431c0969fe48af2bd7f859d3eab9ee22b3c64750d86c408",
+            .hash = "N-V-__8AAEKaZADb3ixCEWhuTQQxwJaf5IryvX-FnT6rnuIr",
             .lazy = true,
         },
         .enkits = .{
             .url = "git+https://github.com/dougbinks/enkiTS#771a0876f7b1b26a9c9381f476b31b08798583cf",
-            .hash = "1220f4b8ca688dfad1e7e33603398bceec6cae189257e1bbc86c4b87177a33022e95",
+            .hash = "N-V-__8AAOUeBAD0uMpojfrR5-M2AzmLzuxsrhiSV-G7yGxL",
             .lazy = true,
         },
     },
